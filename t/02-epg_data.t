@@ -1,4 +1,4 @@
-#!perl -T
+#!perl
 
 use FindBin;
 use Test::Most tests => 16;

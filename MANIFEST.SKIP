@@ -13,4 +13,5 @@ cover_db
 pod2htm.*\.tmp
 TV-Humax-Foxsat-.*
 \.svn.*
-MANIFEST.bak
+MANIFEST\.bak
+MYMETA\..*

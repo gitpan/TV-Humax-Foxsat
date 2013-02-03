@@ -22,4 +22,6 @@ requires:
   Moose: 0
   Moose::Util::TypeConstraints: 0
   Test::More: 0
-version: 0.01
+  Test::Most: 0
+  Trait::Attribute::Derived: 0
+version: 0.02

@@ -14,9 +14,11 @@ WriteMakefile(
     PL_FILES            => {},
     PREREQ_PM => {
         'Test::More'                    => 0,
+        'Test::Most'                    => 0,
         'DateTime'                      => 0,
         'Moose'                         => 0,
         'Moose::Util::TypeConstraints'  => 0,
+        'Trait::Attribute::Derived'     => 0,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'TV-Humax-Foxsat-*' },
