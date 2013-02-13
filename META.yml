@@ -24,4 +24,4 @@ requires:
   Test::More: 0
   Test::Most: 0
   Trait::Attribute::Derived: 0
-version: 0.02
+version: 0.03

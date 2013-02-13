@@ -31,14 +31,14 @@ has 'lastPlay' => (
     is       => 'rw', 
     isa      => 'Int',
     traits   => [ Unpack ],
-    unpacker => '@5 S',
+    unpacker => '@5 n',
 );
 
 has 'ChanNum' => (
     is       => 'rw', 
     isa      => 'Int',
     traits   => [ Unpack ],
-    unpacker => '@17 S',
+    unpacker => '@17 n',
 );
 
 has 'startTime' => (
@@ -146,21 +146,21 @@ has 'VideoPID' => (
     is       => 'rw', 
     isa      => 'Int',
     traits   => [ Unpack ],
-    unpacker => '@1051 S',
+    unpacker => '@1051 n',
 );
 
 has 'AudioPID' => (
     is       => 'rw', 
     isa      => 'Int',
     traits   => [ Unpack ],
-    unpacker => '@1053 S',
+    unpacker => '@1053 n',
 );
 
 has 'TeletextPID' => (
     is       => 'rw', 
     isa      => 'Int',
     traits   => [ Unpack ],
-    unpacker => '@1059 S',
+    unpacker => '@1059 n',
 );
 
 has 'VideoType' => (

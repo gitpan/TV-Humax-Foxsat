@@ -6,3 +6,5 @@ Revision history for TV-Humax-Foxsat
 0.02    2013-02-03
         Resolve missing dependencies
 
+0.03    2013-02-13
+        Fix a byte order bug. 16 and 32 bit fields are in network byte order.

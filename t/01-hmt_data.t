@@ -33,8 +33,8 @@ lives_ok(
 
 note('Unpacked data fields');
 
-is( $hmt_data->lastPlay, 60931, 'lastPlay' );
-is( $hmt_data->ChanNum,  28672, 'ChanNum'  );
+is( $hmt_data->lastPlay, 1006, 'lastPlay' );
+is( $hmt_data->ChanNum,  112, 'ChanNum'  );
 
 is_deeply(
     $hmt_data->startTime, 
@@ -58,9 +58,9 @@ is( $hmt_data->Encrypted,        '',        'Encrypted'  );
 is( $hmt_data->CopyProtect,      '',        'CopyProtect'  );
 is( $hmt_data->Locked,           '',        'Locked'  );
 is( $hmt_data->AudioType,        'MPEG1',   'AudioType'  );
-is( $hmt_data->VideoPID,         20233,     'VideoPID'  );
-is( $hmt_data->AudioPID,         20489,     'AudioPID'  );
-is( $hmt_data->TeletextPID,      20745,     'TeletextPID'  );
+is( $hmt_data->VideoPID,         2383,     'VideoPID'  );
+is( $hmt_data->AudioPID,         2384,     'AudioPID'  );
+is( $hmt_data->TeletextPID,      2385,     'TeletextPID'  );
 is( $hmt_data->VideoType,        'SD',      'VideoType'  );
 is( $hmt_data->EPG_Block_count,  2,         'EPG_Block_count'  );
 
