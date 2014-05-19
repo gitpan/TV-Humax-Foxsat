@@ -1,6 +1,16 @@
 #!/usr/bin/perl
 package TV::Humax::Foxsat::hmt_data;
 
+=head1 NAME
+
+TV::Humax::Foxsat::hmt_data - Package representing Humax file metadata
+
+=head1 VERSION
+
+version 0.04
+
+=cut
+
 use namespace::autoclean;
 use DateTime;
 use Moose;
@@ -194,10 +204,10 @@ sub raw_from_file
     my $file_size = -s $src_file;
 
     # Read the data into a memory buffer
-    open SRC, '<', $src_file or die("Error reading from $src_file $!");
+    open my $src_FH, '<', $src_file or die("Error reading from $src_file $!");
     my $raw_buff = undef;
-    my $bytes_read = sysread SRC, $raw_buff, $file_size, 0;
-    close SRC;
+    my $bytes_read = sysread $src_FH, $raw_buff, $file_size, 0;
+    close $src_FH;
 
     $self->rawDataBlock($raw_buff);
 

@@ -11,6 +11,13 @@ To install this module, run the following commands:
 	make test
 	make install
 
+SUPPORTED DEVICES
+
+This module designed to work with metadata files from Humax's Foxsat receiver,
+it is known not to work with files from the HDR-FOX T2 receiver. Other devices
+are untested, and may or may not work. Please report any success or otherwise
+with other devices.
+
 SUPPORT AND DOCUMENTATION
 
 After installing, you can find documentation for this module with the

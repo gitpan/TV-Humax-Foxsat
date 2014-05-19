@@ -1,6 +1,16 @@
 #!/usr/bin/perl
 package TV::Humax::Foxsat::epg_data;
 
+=head1 NAME
+
+TV::Humax::Foxsat::hmt_data - Package representing Humax TV show metadata
+
+=head1 VERSION
+
+version 0.04
+
+=cut
+
 use namespace::autoclean;
 use DateTime;
 use Moose;

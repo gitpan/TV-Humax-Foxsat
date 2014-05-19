@@ -8,14 +8,6 @@ use warnings;
 
 TV::Humax::Foxsat - Parse metadata files from your Humax satellite TV receiver.
 
-=head1 VERSION
-
-version 0.04
-
-=cut
-
-our $VERSION = '0.04';
-
 =head1 SYNOPSIS
 
   use TV::Humax::Foxsat::hmt_data;
@@ -40,14 +32,14 @@ our $VERSION = '0.04';
 
   printf "The show description is %s\n", $epg_block->guideInfo;
 
-Hmt files are meta data files used by Humax
+Hmt files are meta data files used by Humax 
 
 NB: There is no support for modifying and saving hmt data files.
 You should treat the fields as read only.
 
 =head1 FIELDS
 
-The following fields are available in hmt_data
+The following fields are avalable in hmt_data
 
 Numbers/strings: lastPlay ChanNum progName ChanNameEPG AudioType VideoPID
                  AudioPID TeletextPID VideoType EPG_Block_count fileName
@@ -79,7 +71,7 @@ with other devices.
 =head1 BUGS
 
 Please report any bugs or feature requests to C<bug-tv-humax-foxsat at rt.cpan.org>,
-or through the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=TV-Humax-Foxsat>.
+or through the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=TV-Humax-Foxsat>.  
 I will be notified, and then you'll automatically be notified of progress on
 your bug as I make changes.
 
