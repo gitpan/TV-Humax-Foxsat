@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-
+use 5.010000;
 
 use ExtUtils::MakeMaker 6.30;
 
@@ -20,20 +20,21 @@ my %WriteMakefileArgs = (
   "EXE_FILES" => [],
   "LICENSE" => "gpl",
   "NAME" => "TV::Humax::Foxsat",
-  "PREREQ_PM" => {},
-  "TEST_REQUIRES" => {
+  "PREREQ_PM" => {
     "DateTime" => 0,
     "Moose" => 0,
     "Moose::Util::TypeConstraints" => 0,
-    "Test::CheckManifest" => "0.9",
-    "Test::More" => 0,
-    "Test::Most" => 0,
-    "Test::Pod" => "1.41",
-    "Test::Pod::Coverage" => "1.08",
     "Trait::Attribute::Derived" => 0,
-    "namespace::autoclean" => 0
+    "namespace::autoclean" => 0,
+    "strict" => 0,
+    "warnings" => 0
   },
-  "VERSION" => "0.04",
+  "TEST_REQUIRES" => {
+    "FindBin" => 0,
+    "Test::More" => 0,
+    "Test::Most" => 0
+  },
+  "VERSION" => "0.05",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -42,15 +43,15 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "DateTime" => 0,
+  "FindBin" => 0,
   "Moose" => 0,
   "Moose::Util::TypeConstraints" => 0,
-  "Test::CheckManifest" => "0.9",
   "Test::More" => 0,
   "Test::Most" => 0,
-  "Test::Pod" => "1.41",
-  "Test::Pod::Coverage" => "1.08",
   "Trait::Attribute::Derived" => 0,
-  "namespace::autoclean" => 0
+  "namespace::autoclean" => 0,
+  "strict" => 0,
+  "warnings" => 0
 );
 
 

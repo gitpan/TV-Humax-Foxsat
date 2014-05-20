@@ -1,4 +1,6 @@
 #!perl
+use strict;
+use warnings;
 
 use FindBin;
 use Test::Most tests => 27;
@@ -7,7 +9,7 @@ BEGIN {
     use_ok( 'TV::Humax::Foxsat::hmt_data' ) || print "Bail out!\n";
 }
 
-my $test_data_file = $FindBin::Bin."/Downton_Abbey_20121007_2159.hmt";
+my $test_data_file = $FindBin::Bin."/test_files/Downton_Abbey_20121007_2159.hmt";
 
 note('Basic tests');
 

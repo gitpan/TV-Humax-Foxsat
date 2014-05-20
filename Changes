@@ -11,3 +11,6 @@ Revision history for TV-Humax-Foxsat
 
 0.04    2015-05-16
         Update POD docs. Tidy up package manifest etc.
+
+0.05    2015-05-20
+        Switch to Dist::Zilla packaging. Add links to github

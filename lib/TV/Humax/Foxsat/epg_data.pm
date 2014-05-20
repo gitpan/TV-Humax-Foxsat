@@ -7,7 +7,7 @@ TV::Humax::Foxsat::hmt_data - Package representing Humax TV show metadata
 
 =head1 VERSION
 
-version 0.04
+version 0.05
 
 =cut
 
