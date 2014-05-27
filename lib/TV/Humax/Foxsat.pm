@@ -10,11 +10,11 @@ TV::Humax::Foxsat - Parse metadata files from your Humax satellite TV receiver.
 
 =head1 VERSION
 
-version 0.05
+version 0.06
 
 =cut
 
-our $VERSION = '0.04';
+our $VERSION = '0.06'; # VERSION
 
 =head1 SYNOPSIS
 

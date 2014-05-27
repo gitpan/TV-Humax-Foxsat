@@ -7,7 +7,7 @@ TV::Humax::Foxsat::hmt_data - Package representing Humax TV show metadata
 
 =head1 VERSION
 
-version 0.05
+version 0.06
 
 =cut
 
@@ -17,7 +17,7 @@ use Moose;
 use Moose::Util::TypeConstraints;
 use TV::Humax::Foxsat;
 
-our $VERSION = $TV::Humax::Foxsat::VERSION;
+our $VERSION = '0.06'; # VERSION
 
 use Trait::Attribute::Derived Unpack => {
     fields    => { 'unpacker' => 'Str' },

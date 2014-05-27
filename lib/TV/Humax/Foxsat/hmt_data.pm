@@ -7,7 +7,7 @@ TV::Humax::Foxsat::hmt_data - Package representing Humax file metadata
 
 =head1 VERSION
 
-version 0.05
+version 0.06
 
 =cut
 
@@ -18,7 +18,7 @@ use Moose::Util::TypeConstraints;
 use TV::Humax::Foxsat::epg_data;
 use TV::Humax::Foxsat;
 
-our $VERSION = $TV::Humax::Foxsat::VERSION;
+our $VERSION = '0.06'; # VERSION
 
 use Trait::Attribute::Derived Unpack => {
     source    => 'rawDataBlock',

@@ -19,3 +19,5 @@ t/manifest.t
 t/release-pod-coverage.t
 t/release-pod-syntax.t
 t/test_files/Downton_Abbey_20121007_2159.hmt
+t/test_files/The_Simpsons_20140112_1500.hmt
+t/test_files/The_Simpsons_20140127_1801.hmt

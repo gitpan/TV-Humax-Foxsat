@@ -15,6 +15,16 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: TV-Humax-Foxsat
+provides:
+  TV::Humax::Foxsat:
+    file: lib/TV/Humax/Foxsat.pm
+    version: 0.06
+  TV::Humax::Foxsat::epg_data:
+    file: lib/TV/Humax/Foxsat/epg_data.pm
+    version: 0.06
+  TV::Humax::Foxsat::hmt_data:
+    file: lib/TV/Humax/Foxsat/hmt_data.pm
+    version: 0.06
 requires:
   DateTime: 0
   Moose: 0
@@ -27,4 +37,4 @@ requires:
 resources:
   bugtracker: https://github.com/chrestomanci/TV-Humax-Foxsat/issues
   repository: git://github.com/chrestomanci/TV-Humax-Foxsat.git
-version: 0.05
+version: 0.06

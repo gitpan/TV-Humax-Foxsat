@@ -14,3 +14,6 @@ Revision history for TV-Humax-Foxsat
 
 0.05    2015-05-20
         Switch to Dist::Zilla packaging. Add links to github
+
+0.06    2015-05-27
+        Tweaks to Dist::Zilla packaging & metadata to fix Kwalitee issues
